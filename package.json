@@ -13,16 +13,13 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
-    "homepage": "https://github.com/Miltador-web/AppFinancas.git",
-    "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-    "eslintConfig": {
+  "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
@@ -43,8 +40,4 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
-
-  
-  
-
 }
